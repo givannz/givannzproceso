@@ -1,0 +1,222 @@
+/* HEADER */
+
+
+
+section{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+nav{
+    text-align: center;
+
+    background-color: #f1f1f1;
+
+    padding: .5rem;
+
+}
+
+
+ul{
+
+    list-style-type: none;
+    
+    display: inline-flex;
+    
+    justify-content: center;
+
+}
+
+
+li{
+    display: inline-block;
+    
+    text-align: center;
+
+}
+
+
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    margin: 1.5rem;
+    justify-content: center;
+
+}
+
+
+
+div h4 p{
+
+    text-align: center;
+    margin: 10%;
+    padding: 10%;
+    flex: content;
+
+}
+
+
+
+/* BODY */
+
+
+p{
+    display: flex;
+    
+    justify-content: center;
+
+    
+}
+
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+    
+    background-color: #f1f1f1;
+
+}
+
+h2{
+    text-align: center;
+    color: #1b1b1b;
+}
+
+h3{
+    text-align: center;
+}
+
+h1 {
+    color: #006d00;
+
+    text-align: center;
+
+}
+
+.titulo_index{
+    color: #000000
+
+}
+
+.slap{
+    width: 15rem;
+}
+
+
+.Slaphouse_index{
+    color: #8b0000
+
+}
+
+
+
+.bigroom_index{
+    color: #ff7b00
+}
+
+.Room{
+    width: 15rem;
+}
+
+
+.techno_index{
+    color: #2aac02
+}
+
+.tech{
+    width: 15rem;
+}
+
+.Deep{
+    width: 50%;
+}
+
+
+
+
+
+
+div nav article h5{
+    color:#6b6b6b
+    
+
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5%;
+    background-color: #a0a0a0;
+    width: 30rem
+
+}
+
+.card image{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/*************FOOTER***********/
+*{
+    margin: 0%;
+
+    padding: 0%;
+}
+
+footer{
+    background-color: rgb(255, 210, 127);
+
+    padding: 1.5rem;
+}
+
+
+section{
+    list-style-type: none;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    display: inline-block;
+    
+    text-align: center;
+}
+
+
+/* Vista previa desde un celular */
+@media screen and (max-width: 425px) {
+    head{
+        background-color: #612f01;
+        text-align: left
+    }
+
+    body{
+        background-color: #bb4646;
+    }
+
+    h1{
+        text-align: left;
+    }
+
+
+}
